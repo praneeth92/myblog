@@ -13,7 +13,9 @@ body {
   color: #444;
   font-size: 16px;
 }
-
+body .container {
+  padding: 0;
+}
 a {
   color: #4fa6d5;
 }
@@ -383,7 +385,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   /* margin: 0 auto 30px auto; */
   color: #fff;
   font-size: 18px;
+  line-height: 35px;
+  font-weight: 400;
 }
+
 #hero .designation{
   font-size: 25px;
   font-weight: 650;
@@ -968,6 +973,7 @@ section {
 
 .about p:last-child {
   margin-bottom: 0;
+  line-height: 35px;
 }
 
 /*--------------------------------------------------------------
@@ -2394,3 +2400,4 @@ font-style: normal;
 #footer .credits a {
   color: #a2cce3;
 }
+
