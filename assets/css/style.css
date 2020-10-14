@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .back-to-top:hover {
   color: #fff;
-  background: #85b6cf;
+  background: #000000;
   transition: background 0.2s ease-in-out;
 }
 
@@ -818,8 +818,7 @@ section {
 }
 
 .why-us .video-box img {
-  padding-top: 18px;
-  padding-bottom: 15px;
+  padding:15px;
 }
 
 .why-us .play-btn {
