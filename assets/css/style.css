@@ -1537,7 +1537,7 @@ font-style: normal;
 }
 
 .team .member .member-info p {
-  font-style: italic;
+  font-style: unset;
   font-size: 14px;
   line-height: 26px;
   color: #666;
@@ -1546,6 +1546,14 @@ font-style: normal;
   font-size: 14px;
   line-height: 26px;
   color: #666;
+}
+
+.team .member .member-info .quote p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #666;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .team .member:hover .social {
