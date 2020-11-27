@@ -951,10 +951,13 @@ section {
 # About
 --------------------------------------------------------------*/
 .about h3 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 26px;
 }
 
+.about .img-fluid {
+  border-radius:20px;
+}
 .about ul {
   list-style: none;
   padding: 0;
