@@ -1024,7 +1024,36 @@ section {
   text-align: left;
   transition: .9s;
 }
-
+.skills .progress .progress-bar-html {
+  background-color:#FF715A;
+}
+.skills .progress .progress-bar-css {
+  background-color:#1758A7;
+}
+.skills .progress .progress-bar-js {
+  background-color:#F1BF26;
+}
+.skills .progress .progress-bar-bootstrap {
+  background-color:#673AB7;
+}
+.skills .progress .progress-bar-xd {
+  background-color:#FE2AC1;
+}
+.skills .progress .progress-bar-invision {
+  background-color:#FF0066;
+}
+.skills .progress .progress-bar-ps {
+  background-color:#35C3FD;
+}
+.skills .progress .progress-bar-illustrator {
+  background-color:#FC7C1B;
+}
+.skills .progress .progress-bar-figma {
+  background-color:#cfc2b8;
+}
+.skills .progress .progress-bar-wp {
+  background-color:#21759b;
+}
 /*--------------------------------------------------------------
 # Tetstimonials
 --------------------------------------------------------------*/
