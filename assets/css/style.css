@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #00000075;
+  background: #000000;
 }
 
 #header.header-transparent {
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background: #00000075;
+  background: #00000090;
   height: 60px;
   padding: 10px 0;
 }
@@ -338,11 +338,17 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   .why-us .contact-container {
     padding:16px !important;
   }
+  section {
+    padding: 15px 0;
+  }
 }
 
 @media (max-width: 560px) {
   .why-us .contact-container {
     padding:16px !important;
+  }
+  section {
+    padding: 15px 0;
   }
 }
 
@@ -929,10 +935,10 @@ section {
   }
 }
 
-
 /*--------------------------------------------------------------
 # portfolio-home Section
 --------------------------------------------------------------*/
+
 .portfolio-home .portfolio-item {
   background: #1e4356;
   overflow: hidden;
@@ -969,7 +975,6 @@ section {
   margin-bottom: 10px;
   margin-top: 40px;
 }
-}
 
 .portfolio-home .portfolio-description h3 {
   font-size: 20px;
@@ -981,4 +986,106 @@ section {
 
 .portfolio-home .portfolio-description p {
   padding: 10px 0 0 0;
+}
+
+
+/*--------------------------------------------------------------
+# more projects Section
+--------------------------------------------------------------*/
+
+#more-projects a {
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+#more-projects a:hover {
+  text-decoration: wavy;
+  transition: 0.3s ease-in-out;
+  color: #1e4356;
+}
+
+/*--------------------------------------------------------------
+# project-details Section
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+  #challenge .container {
+    padding: 20px;
+    background: #44444415;
+  }
+}
+#challenge .container {
+  padding: 40px;
+  background: #44444415;
+}
+#challenge .description {
+  font-size: 22px;
+  line-height: 24px;
+  color: #265359;
+}
+#challenge p, #solution p, #painpoints p, #goals p, #design-samples p{
+  font-size: 28px;
+  color: #000000;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+#challenge p:hover, #solution p:hover, #painpoints p:hover, #goals p:hover, #design-samples p:hover{
+  cursor: context-menu;
+}
+
+#challenge p i, #solution p i, #painpoints p i {
+  font-size: 30px;
+  color: #1e4356;
+  vertical-align: middle;
+}
+
+#solution i, #painpoints i {
+  font-size: 18px;
+  color: #444444;
+  line-height: 24px;
+  vertical-align: text-bottom;
+}
+#painpoints span{
+  font-size: 16px;
+  color: #444444;
+  line-height: 25px;
+  margin-top: 10px;
+  display: block !important;
+}
+
+#goals span{
+  font-size: 16px;
+  color: #444444;
+  line-height: 25px;
+  margin-top: 10px;
+  display: block !important;
+}
+
+#goals ol li{
+  font-size: 16px;
+  color: #444444;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+#design-samples img {
+  border: 0.5px solid #44444450;
+}
+
+#design-samples .heading {
+  padding: 10px 0px;
+}
+
+#design-samples .heading span {
+  font-size: 20px;
+  color: #265359;
+  font-weight: bold;
+}
+#thank-you span {
+  font-size: 30px;
+  color: #265359;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
 }
