@@ -1024,38 +1024,30 @@ section {
   line-height: 24px;
   color: #265359;
 }
-#challenge p, #solution p, #painpoints p, #goals p, #design-samples p{
+#challenge p, #solution p, #painpoints p, #goals p, #design-samples p, #research p, #objectives p {
   font-size: 28px;
   color: #000000;
   text-transform: capitalize;
   font-weight: 700;
 }
 
-#challenge p:hover, #solution p:hover, #painpoints p:hover, #goals p:hover, #design-samples p:hover{
+#challenge p:hover, #solution p:hover, #painpoints p:hover, #goals p:hover, #design-samples p:hover, #research p:hover, #objectives p:hover {
   cursor: context-menu;
 }
 
-#challenge p i, #solution p i, #painpoints p i {
+#challenge p i, #solution p i, #painpoints p i, #research p i {
   font-size: 30px;
   color: #1e4356;
   vertical-align: middle;
 }
 
-#solution i, #painpoints i {
+#solution i, #painpoints i, #research i {
   font-size: 18px;
   color: #444444;
   line-height: 24px;
   vertical-align: text-bottom;
 }
-#painpoints span{
-  font-size: 16px;
-  color: #444444;
-  line-height: 25px;
-  margin-top: 10px;
-  display: block !important;
-}
-
-#goals span{
+#painpoints span, #research span, #goals span {
   font-size: 16px;
   color: #444444;
   line-height: 25px;
